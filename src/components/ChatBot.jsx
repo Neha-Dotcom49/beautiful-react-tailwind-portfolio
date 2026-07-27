@@ -38,11 +38,30 @@ const ChatBot = () => {
  const msg = input.toLowerCase();
 
 
-if (msg.includes("about neha") || msg.includes("tell me about neha")) {
+if (msg.includes("about neha")||msg.includes("neha") || msg.includes("tell me about neha")) {
 
   botReply =
     "Neha Patil is a Full Stack Developer with 3+ years of experience specializing in Angular, React, TypeScript, ASP.NET Core, SQL, and enterprise application development.";
 
+}
+
+if (
+  msg.includes("hi") ||
+  msg.includes("hello") ||
+  msg.includes("hey")
+) {
+  botReply =
+    "Hello 👋 Welcome to Neha's portfolio! I can help you explore her skills, projects, experience, certifications, and contact details.";
+}
+
+else if (
+  msg.includes("skill") ||
+  msg.includes("skills") ||
+  msg.includes("technology") ||
+  msg.includes("tech stack")
+) {
+  botReply =
+    "Neha's technical skills include Angular, React, TypeScript, JavaScript, HTML, CSS, SCSS, Bootstrap, RxJS, NgRx, ASP.NET Core Web API, C#, SQL Server, PostgreSQL, MySQL, REST APIs, Git, Docker, and CI/CD.";
 }
 
 else if (msg.includes("frontend") || msg.includes("angular")) {
@@ -56,6 +75,18 @@ else if (msg.includes("backend") || msg.includes(".net") || msg.includes("api"))
 
   botReply =
     "Neha has backend experience with C#, ASP.NET Core Web API, .NET 6/8, REST APIs, JWT authentication, RBAC, and database integration.";
+
+}
+else if (
+  msg.includes("ok") ||
+  msg.includes("okay") ||
+  msg.includes("ohh") ||
+  msg.includes("oh") ||
+  msg.includes("got it")
+) {
+
+  botReply =
+    "Great 😊✨ Let me know if you want to know more about Neha's skills, projects, experience, or anything else. I'm happy to help! 🤖🚀";
 
 }
 
@@ -227,7 +258,7 @@ else if (msg.includes("what can you do") || msg.includes("help")) {
 
 }
 
-else if (msg.includes("good morning") || msg.includes("good afternoon") || msg.includes("good evening")) {
+else if (msg.includes("good morning")||msg.includes("gm") ||msg.includes("GM") || msg.includes("good afternoon") || msg.includes("good evening")) {
 
   botReply =
     "Hello 😊 Hope you are having a great day! How can I help you learn more about Neha?";
