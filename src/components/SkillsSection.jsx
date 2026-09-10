@@ -27,14 +27,23 @@ const skills = {
   ],
 
 
-  backend:[
+  backend: [
+    "Java",
+    "Spring Boot",
+    "Spring MVC",
+    "Spring Security",
+    "JPA",
+    "Hibernate",
+    "Microservices",
+    "Maven",
     "ASP.NET Core",
     "Web API",
     "REST API",
+    "Entity Framework",
+    "ADO.NET",
     "JWT Authentication",
     "RBAC",
-    "Entity Framework",
-    "Python API Integration"
+    "Python API Integration",
   ],
 
 

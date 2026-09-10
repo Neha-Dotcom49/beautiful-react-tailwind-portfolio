@@ -14,7 +14,7 @@ const highlights = [
     icon: <Code2 className="h-6 w-6 text-primary" />,
     title: "Full Stack Development",
     description:
-      "Building scalable enterprise applications using Angular, React, ASP.NET Core and SQL.",
+      "Building scalable enterprise applications using Angular, React,java, ASP.NET Core and SQL.",
   },
   {
     icon: <Briefcase className="h-6 w-6 text-primary" />,
@@ -58,19 +58,28 @@ export const HeroSection = () => {
             <p className="mt-8 text-lg text-muted-foreground leading-8 max-w-xl">
               Full Stack Developer with <strong>3+ years of experience</strong>
               building scalable enterprise web applications using
-              <strong> Angular, React, TypeScript, ASP.NET Core and SQL.</strong>
+              <strong> Angular, React, Java, ASP.NET Core and SQL.</strong>
               Passionate about clean architecture, workflow automation and
               performance optimization.
             </p>
 
             <div className="flex flex-wrap gap-3 mt-8">
               {[
-                "Angular",
-                "React",
-                "TypeScript",
-                ".NET Core",
-                "SQL",
-                "REST APIs",
+                  "Angular",
+                  "React",
+                  "TypeScript",
+                  "Java",
+                  "Spring Boot",
+                  "JPA",
+                  "Hibernate",
+                  "Microservices",
+                  ".NET Core",
+                  "ADO.NET",
+                  "SQL",
+                  "REST APIs",
+                  "PostgreSQL",
+                  "Postman"
+
               ].map((item) => (
                 <span
                   key={item}

@@ -107,7 +107,7 @@ export const AboutSection = () => {
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">
 
             Full Stack Developer with 3+ years of experience creating
-            scalable enterprise solutions using Angular, React,
+            scalable enterprise solutions using Angular, React,Java,
             ASP.NET Core, SQL Server and cloud technologies.
 
           </p>
